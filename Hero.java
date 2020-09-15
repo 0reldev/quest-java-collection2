@@ -5,17 +5,15 @@ public class Hero implements Comparable<Hero> {
         return hero.getName().compareTo(this.getName());
     }
 
-    // attributs
     private String name;
     private int age;
 
-    // constructeurs
     public Hero(String name, int age) {
+
         this.name = name;
         this.age = age;
     }
 
-    // accesseurs (getters)
     public String getName() {
         return name;
     }
@@ -24,7 +22,6 @@ public class Hero implements Comparable<Hero> {
         return age;
     }
 
-    // mutateurs (setters)
     public void setName(String name) {
         this.name = name;
     }
